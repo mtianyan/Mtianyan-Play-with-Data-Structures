@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d49993c-7c46-4e80-bbc8-f72b50484b79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/mtianyan/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mtianyan/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mtianyan/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/03-Stack-Queue.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/ArrayStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/ArrayStackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack/src/cn/mtianyan/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d49993c-7c46-4e80-bbc8-f72b50484b79" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +47,7 @@
     <session id="922091130">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -98,7 +81,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -177,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="60" column="5" selection-start-line="62" selection-start-column="3" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="912">
+              <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -257,21 +240,6 @@
           <expand>
             <path>
               <item name="03-Stack-Queue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-Stack-Queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03-Stack-Queue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-Stack-Queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03-Stack-Queue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03-Stack-Queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mtianyan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03-Stack-Queue" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -286,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533831205673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533832973571" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -398,7 +366,7 @@
       <workItem from="1533805492143" duration="6523000" />
       <workItem from="1533816160165" duration="1392000" />
       <workItem from="1533821584678" duration="2645000" />
-      <workItem from="1533827118320" duration="3091000" />
+      <workItem from="1533827118320" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="学习了Stack，编写了ArrayStack类实现Stack接口，利用了前面的动态Array">
       <created>1533815401931</created>
@@ -411,13 +379,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13651000" />
+    <option name="totallyTimeSpent" value="14200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1332" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,7 +394,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45806453" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45806453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="60" column="5" selection-start-line="62" selection-start-column="3" selection-end-line="70" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/LoopQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -541,6 +502,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
         </state>
       </provider>
     </entry>
