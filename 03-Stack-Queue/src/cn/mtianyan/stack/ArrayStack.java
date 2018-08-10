@@ -1,20 +1,26 @@
-package cn.mtianyan;
+package cn.mtianyan.stack;
 
+import cn.mtianyan.array.Array;
+
+/**
+ * 使用动态数组实现栈
+ *
+ * @param <E>
+ */
 public class ArrayStack<E> implements Stack<E> {
-    Array<E> array;
+    private Array<E> array;
 
     /**
      * 传入容量的构造方法
      *
      * @param capacity 容量
      */
-    public ArrayStack(int capacity){
+    public ArrayStack(int capacity) {
         array = new Array<>(capacity);
     }
 
     /**
      * 默认无参构造
-     *
      */
     public ArrayStack() {
         array = new Array<>();
@@ -25,7 +31,7 @@ public class ArrayStack<E> implements Stack<E> {
      *
      * @return 容量值
      */
-    public int getCapacity(){
+    public int getCapacity() {
         return array.getCapacity();
     }
 
@@ -50,7 +56,7 @@ public class ArrayStack<E> implements Stack<E> {
     }
 
     /**
-     * 传入元素入栈
+     * 传入元素入栈,栈顶(数组尾部)入栈
      *
      * @param e
      */
@@ -60,13 +66,13 @@ public class ArrayStack<E> implements Stack<E> {
     }
 
     /**
-     * 栈顶元素出栈
+     * 栈顶元素出栈,(数组尾部) 出栈
      *
      * @return
      */
     @Override
     public E pop() {
-        return  array.removeLast();
+        return array.removeLast();
     }
 
     /**
@@ -91,12 +97,12 @@ public class ArrayStack<E> implements Stack<E> {
         res.append("[ ");
         for (int i = 0; i < array.getSize(); i++) {
             res.append(array.get(i));
-            if (i != array.getSize()-1){
+            if (i != array.getSize() - 1) {
                 res.append(", ");
             }
         }
         res.append("] top");
-        return  res.toString();
+        return res.toString();
     }
 
 }

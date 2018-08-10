@@ -1,4 +1,4 @@
-package cn.mtianyan;
+package cn.mtianyan.stack;
 
 public class ArrayStackTest {
 

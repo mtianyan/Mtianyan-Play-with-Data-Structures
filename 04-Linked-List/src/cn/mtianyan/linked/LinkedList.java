@@ -1,51 +1,84 @@
-package cn.mtianyan;
+package cn.mtianyan.linked;
 
 public class LinkedList<E> {
 
-    // private设计，不被用户感知
-    private class Node{
+    /**
+     * Node 节点类(private 不被用户感知)
+     */
+    private class Node {
         public E e;
         public Node next; // c++实现时是指针
 
+        /**
+         * 传入元素e以及next节点的构造函数
+         *
+         * @param e
+         * @param next
+         */
         public Node(E e, Node next) {
             this.e = e;
             this.next = next;
         }
 
+        /**
+         * 只传入元素e,next置空。构造函数
+         *
+         * @param e
+         */
         public Node(E e) {
             this.e = e;
             this.next = null;
         }
 
+
+        /**
+         * 默认构造函数，节点元素，next均为空。
+         */
         public Node() {
-            this(null,null);
+            this(null, null);
         }
 
+        /**
+         * 打印节点元素信息。
+         *
+         * @return
+         */
         @Override
         public String toString() {
-            return "Node[" +
-                    "e=" + e +
-                    ", next=" + next +
-                    ']';
+            return e.toString();
         }
     }
 
-    private Node dummyHead;
-    private int size;
 
+    private Node dummyHead; // 虚拟头结点
+    private int size; // 链表元素个数
+
+    /**
+     * 链表默认构造函数，空链表是包含一个虚拟头结点的。
+     */
     public LinkedList() {
-        dummyHead = new  Node(null,null);
+        dummyHead = new Node(null, null);
         size = 0;
     }
 
 
     /**
-     * 从数组创建链表的方法，待完善。
+     * 从数组创建链表的方法。
      *
-     * @param e
+     * @param arr
      */
-    public LinkedList(E[] e){
-
+    public LinkedList(E[] arr) {
+        this(); // 创建出虚拟头结点
+        if (arr == null || arr.length == 0)
+            throw new IllegalArgumentException("arr can not be empty");
+        Node cur = new Node(arr[0]); // 当前节点是真实头结点
+        dummyHead.next = cur; // 将虚拟头结点与真实头结点连接
+        size++;
+        for (int i = 1; i < arr.length; i++) {
+            cur.next = new Node(arr[i]);
+            cur = cur.next;
+            size++;
+        }
     }
 
     /**
@@ -53,7 +86,7 @@ public class LinkedList<E> {
      *
      * @return
      */
-    public int getSize(){
+    public int getSize() {
         return size;
     }
 
@@ -62,19 +95,20 @@ public class LinkedList<E> {
      *
      * @return
      */
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return size == 0;
     }
 
     /**
      * 在链表的index(0-based)位置添加新的元素e
      * 在链表中不是一个常用的操作，练习题用,面试用。
+     *
      * @param index
      * @param e
      */
-    public void add(int index,E e){
+    public void add(int index, E e) {
         // index可以取到size，在链表末尾空位置添加元素。
-        if (index < 0 || index >size){
+        if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Illegal index");
         }
         Node prevNode = dummyHead;
@@ -87,7 +121,7 @@ public class LinkedList<E> {
         //        Node insertNode = new Node(e);
         //        insertNode.next = prevNode.next;
         //        prevNode.next = insertNode;
-        prevNode.next = new Node(e,prevNode.next); // 后半截是前两句完成任务
+        prevNode.next = new Node(e, prevNode.next); // 后半截是前两句完成任务
 
         size++;
     }
@@ -95,26 +129,27 @@ public class LinkedList<E> {
     /**
      * 在链表头添加新元素e
      */
-    public void addFirst(E e){
-        add(0,e);
+    public void addFirst(E e) {
+        add(0, e);
     }
 
     /**
-     *  在链表末尾添加新的元素e
+     * 在链表末尾添加新的元素e
      */
-    public void addLast(E e){
-        add(size,e);
+    public void addLast(E e) {
+        add(size, e);
     }
 
     /**
-     *  获得链表的第index(0-based)位置元素
-     *  链表中不是常用操作，练习用
+     * 获得链表的第index(0-based)位置元素
+     * 链表中不是常用操作，练习用
+     *
      * @param index
      * @return
      */
-    public E get(int index){
+    public E get(int index) {
         // index不可以取到size，索引从0开始，最多取到size-1
-        if (index < 0 || index >=size){
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Add failed. Illegal index");
         }
         Node cur = dummyHead.next; // 从索引为0元素开始
@@ -126,21 +161,31 @@ public class LinkedList<E> {
 
     }
 
-    public E getFirst(){
+    /**
+     * 获取链表中第一个元素(index 0)
+     *
+     * @return
+     */
+    public E getFirst() {
         return get(0);
     }
 
-    public E getLast(){
-        return get(size-1);
+    /**
+     * 获取链表中最后一个元素(index size-1)
+     *
+     * @return
+     */
+    public E getLast() {
+        return get(size - 1);
     }
 
     /**
      * 修改链表的第index(0-based)个位置的元素为e
      * 在链表中不是一个常用的操作，练习用
      */
-    public void set(int index,E e){
+    public void set(int index, E e) {
         // index不可以取到size，索引从0开始，最多取到size-1
-        if (index < 0 || index >=size){
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Set failed. Illegal index");
         }
         Node cur = dummyHead.next; // 从索引为0元素开始
@@ -152,12 +197,12 @@ public class LinkedList<E> {
     }
 
     /**
-     *     查找链表中是否有元素e
+     * 查找链表中是否有元素e
      */
-    public boolean contains(E e){
+    public boolean contains(E e) {
         Node cur = dummyHead.next;
-        while (cur != null){
-            if (cur.e.equals(e)){
+        while (cur != null) {
+            if (cur.e.equals(e)) {
                 return true;
             }
             cur = cur.next;
@@ -167,11 +212,12 @@ public class LinkedList<E> {
 
     /**
      * 删除链表中指定index位置的元素
+     *
      * @param index
      * @return
      */
-    public E remove(int index){
-        if (index < 0 || index >=size){
+    public E remove(int index) {
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Set failed. Illegal index");
         }
         Node prev = dummyHead;
@@ -187,14 +233,29 @@ public class LinkedList<E> {
         return retNode.e;
     }
 
-    public E removeFirst(){
+    /**
+     * 删除第一个元素(index 0)
+     *
+     * @return
+     */
+    public E removeFirst() {
         return remove(0);
     }
 
-    public E removeLast(){
-        return remove(size-1);
+    /**
+     * 删除最后一个元素(index 1)
+     *
+     * @return
+     */
+    public E removeLast() {
+        return remove(size - 1);
     }
 
+    /**
+     * 打印链表元素信息
+     *
+     * @return
+     */
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -205,8 +266,8 @@ public class LinkedList<E> {
 //        }
 //        res.append("NULL");
         res.append("head: ");
-        for (Node cur=dummyHead.next;cur !=null;cur=cur.next){
-            res.append(cur.e +"->");
+        for (Node cur = dummyHead.next; cur != null; cur = cur.next) {
+            res.append(cur.e + "->");
         }
         res.append("NULL");
         return res.toString();

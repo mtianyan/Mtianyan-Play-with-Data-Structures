@@ -1,4 +1,4 @@
-package cn.mtianyan;
+package cn.mtianyan.array;
 
 public class ArrayTestDynamic {
     public static void main(String[] args) {

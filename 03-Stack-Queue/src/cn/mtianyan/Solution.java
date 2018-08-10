@@ -1,21 +1,25 @@
 package cn.mtianyan;
 
+// https://leetcode-cn.com/problems/valid-parentheses/description/
+
+import cn.mtianyan.stack.ArrayStack;
+
 class Solution {
     public boolean isValid(String s) {
-        ArrayStack <Character> stack = new ArrayStack<>();
+        ArrayStack<Character> stack = new ArrayStack<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i); // String中的第i个字符
-            if (c == '(' || c == '[' || c == '{'){
+            if (c == '(' || c == '[' || c == '{') {
                 stack.push(c);
-            }else{
+            } else {
                 if (stack.isEmpty())
                     return false;
                 char topChar = stack.pop();
-                if (c ==')' && topChar !='(')
+                if (c == ')' && topChar != '(')
                     return false;
-                if (c ==']' && topChar !='[')
+                if (c == ']' && topChar != '[')
                     return false;
-                if (c=='}' && topChar != '{')
+                if (c == '}' && topChar != '{')
                     return false;
             }
         }
