@@ -1,9 +1,17 @@
 package cn.mtianyan;
 
 public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
+    int val;
+    ListNode next;
+
+    /**
+     * 带参构建函数，创建一个单个节点
+     *
+     * @param x
+     */
+    ListNode(int x) {
+        val = x;
+    }
 
     /**
      * 链表节点的构造函数
@@ -12,7 +20,7 @@ public class ListNode {
      * @param arr
      */
     public ListNode(int[] arr) {
-        if (arr == null || arr.length == 0){
+        if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("Arr can not be empty");
         }
         this.val = arr[0];
@@ -33,8 +41,8 @@ public class ListNode {
         StringBuilder res = new StringBuilder();
         res.append("List :");
         ListNode cur = this;
-        while (cur != null){
-            res.append(cur.val +"->");
+        while (cur != null) {
+            res.append(cur.val + "->");
             cur = cur.next;
         }
         res.append("NULL");

@@ -2,13 +2,20 @@ package cn.mtianyan;
 
 class SolutionRecusion {
 
+    /**
+     * 使用递归方式实现链表去除节点
+     *
+     * @param head
+     * @param val
+     * @return
+     */
     public ListNode removeElements(ListNode head, int val) {
-        if(head == null) // 求解最基本问题
+        if (head == null) // 求解最基本问题
             return null;
-        ListNode res = removeElements(head.next,val); // 将原问题转换为更小问题
-        if (head.val == val){
+        ListNode res = removeElements(head.next, val); // 将原问题转换为更小问题
+        if (head.val == val) {
             return res; // 继续调用更小问题求解。
-        }else {
+        } else {
             head.next = res; // 这个head不需要删除，继续连接上链表。
             return head;
         }

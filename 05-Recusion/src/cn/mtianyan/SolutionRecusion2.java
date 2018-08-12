@@ -1,25 +1,20 @@
 package cn.mtianyan;
 
 public class SolutionRecusion2 {
-    public ListNode removeElements(ListNode head, int val,int depth) {
-        
-        String depthString = generateDepthString(depth);
-        System.out.println(depthString);
-        System.out.println("Call: remove "+ val+"in"+head);
+    /**
+     * 使用递归方式并简化之后的链表删除节点
+     *
+     * @param head
+     * @param val
+     * @return
+     */
+    public ListNode removeElements(ListNode head, int val) {
 
-        if(head == null) // 求解最基本问题
+        if (head == null) // 求解最基本问题
             return null;
-        
-        head.next = removeElements(head.next,val,depth+1); // 将原问题转换为更小问题
-        return head.val == val?head.next:head;
-    }
 
-    private String generateDepthString(int depth) {
-        StringBuilder res = new StringBuilder();
-        for (int i = 0; i < depth; i++) {
-            res.append("--");
-        }
-        return res.toString();
+        head.next = removeElements(head.next, val); // 将原问题转换为更小问题
+        return head.val == val ? head.next : head;
     }
 
     public static void main(String[] args) {
