@@ -12,9 +12,9 @@ class Solution {
         }
         ArrayList<Integer> list = new ArrayList<>();
         // 对于nums2进行遍历
-        for (int num: nums2){
+        for (int num : nums2) {
             // 如果是set中已经有的元素，那么就加入结果ArrayList中
-            if (set.contains(num)){
+            if (set.contains(num)) {
                 list.add(num);
                 // 将set中该元素去除，那么num2中重复的不会再被匹配到，因为set是删一个少一个。
                 set.remove(num);

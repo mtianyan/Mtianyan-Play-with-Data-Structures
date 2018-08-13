@@ -7,17 +7,17 @@ import cn.mtianyan.map.Map;
 import java.util.ArrayList;
 
 public class CompareTwoBstLInkedListMap {
-    private static double testMap(Map<String, Integer> map, String filename){
+    private static double testMap(Map<String, Integer> map, String filename) {
 
         long startTime = System.nanoTime();
 
         System.out.println(filename);
         ArrayList<String> words = new ArrayList<>();
-        if(FileOperation.readFile(filename, words)) {
+        if (FileOperation.readFile(filename, words)) {
             System.out.println("Total words: " + words.size());
 
-            for (String word : words){
-                if(map.contains(word))
+            for (String word : words) {
+                if (map.contains(word))
                     map.set(word, map.get(word) + 1);
                 else
                     map.add(word, 1);
