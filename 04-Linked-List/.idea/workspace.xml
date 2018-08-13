@@ -2,50 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0aa05ec-8711-48dd-820d-09461cc5ca72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../02-Arrays/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-Stack-Queue/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/mtianyan/queue/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/05-Recursion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/ArrayTestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/array/ArrayTestDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/array/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-Arrays/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/ArrayStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/MainCompareArrayLoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/ArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/queue/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/stack/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/LoopQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/MainThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/ThreeCompareArrayLoopLinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/mainTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/TwoCompareArrayLinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/linked/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/linked/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/set/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/set/LinkedListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-Set-and-Map/src/cn/mtianyan/set/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-Binary-Search-Tree/src/cn/mtianyan/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Binary-Search-Tree/src/cn/mtianyan/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-Binary-Search-Tree/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Binary-Search-Tree/src/cn/mtianyan/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,17 +37,17 @@
     <session id="-1288623080">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3968" />
+          <entry key="JAVA" value="3969" />
           <entry key="PLAIN_TEXT" value="75" />
         </counts>
       </usages-collector>
@@ -85,19 +55,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="75" />
-          <entry key="java" value="3968" />
+          <entry key="java" value="3969" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="33" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -159,13 +129,13 @@
         <option value="$PROJECT_DIR$/src/cn/mtianyan/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/queue/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/stack/LinkedListStack.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/MainThreeCompreArrayLoopLinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/MainTwoCompareArrayLinkedListStack.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/ThreeCompreArrayLoopLinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/ThreeCompareArrayLoopLinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -189,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,7 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -247,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainThreeCompreArrayLoopLinkedQueue">
+  <component name="RunManager" selected="Application.ThreeCompreArrayLoopLinkedQueue">
     <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.mtianyan.queue.LinkedListQueue" />
       <module name="04-Linked-List" />
@@ -311,16 +281,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ThreeCompreArrayLoopLinkedQueue" />
+      <item itemvalue="Application.TwoCompareArrayLinkedListStack" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LinkedListQueue" />
       <item itemvalue="Application.LinkedListStack" />
-      <item itemvalue="Application.MainTwoCompareArrayLinkedListStack" />
-      <item itemvalue="Application.MainThreeCompreArrayLoopLinkedQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainThreeCompreArrayLoopLinkedQueue" />
-        <item itemvalue="Application.MainTwoCompareArrayLinkedListStack" />
         <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.Main" />
@@ -343,17 +311,18 @@
       <workItem from="1533852646118" duration="517000" />
       <workItem from="1533881244486" duration="50000" />
       <workItem from="1533885854604" duration="5372000" />
+      <workItem from="1534146338733" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18355000" />
+    <option name="totallyTimeSpent" value="18373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1332" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28756058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,25 +402,6 @@
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#694#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="class#Node#0;class#LinkedList#0" />
-            <element signature="method#Node#0;class#Node#0;class#LinkedList#0" />
-            <element signature="method#Node#1;class#Node#0;class#LinkedList#0" />
-            <element signature="method#LinkedList#1;class#LinkedList#0" />
-            <element signature="method#add#0;class#LinkedList#0" />
-            <element signature="method#get#0;class#LinkedList#0" />
-            <element signature="method#set#0;class#LinkedList#0" />
-            <element signature="method#contains#0;class#LinkedList#0" />
-            <element signature="method#remove#0;class#LinkedList#0" />
-            <element signature="method#toString#0;class#LinkedList#0" />
           </folding>
         </state>
       </provider>
@@ -551,6 +501,26 @@
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/linked/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1648">
+          <caret line="273" column="5" selection-start-line="273" selection-start-column="5" selection-end-line="273" selection-end-column="5" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedList#0" />
+            <element signature="method#Node#0;class#Node#0;class#LinkedList#0" />
+            <element signature="method#Node#1;class#Node#0;class#LinkedList#0" />
+            <element signature="method#LinkedList#1;class#LinkedList#0" />
+            <element signature="method#add#0;class#LinkedList#0" />
+            <element signature="method#get#0;class#LinkedList#0" />
+            <element signature="method#set#0;class#LinkedList#0" />
+            <element signature="method#contains#0;class#LinkedList#0" />
+            <element signature="method#remove#0;class#LinkedList#0" />
+            <element signature="method#removeElement#0;class#LinkedList#0" />
+            <element signature="method#toString#0;class#LinkedList#0" />
           </folding>
         </state>
       </provider>

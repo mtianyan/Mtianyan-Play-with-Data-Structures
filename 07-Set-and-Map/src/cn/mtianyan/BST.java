@@ -471,34 +471,4 @@ public class BST<E extends Comparable<E>> {
             res.append("--");
         return res.toString();
     }
-
-    /**
-     * 语义: 向以node为根的二分搜索树中插入元素e，递归算法
-     *
-     * @param node
-     * @param e
-     */
-//    private void add(Node node, E e) {
-//        if (e.equals(node.e))
-//            return; // 此处相当于去重
-//            //小于e的值，并且该节点的左子树为空。
-//        else if (e.compareTo(node.e) < 0 && node.left == null) {
-//            node.left = new Node(e);
-//            size++;
-//            return;
-//        }
-//        // 如果大于e的值，并且该节点的右子树为空。
-//        else if (e.compareTo(node.e) > 0 && node.right == null) {
-//            node.right = new Node(e);
-//            size++;
-//            return;
-//        }
-//        // 上面条件不满足，说明还得继续往下找左右子树为null可以挂载上的节点
-//        if (e.compareTo(node.e) < 0)
-//            // 如果小于，那么继续往它的左子树添加该节点
-//            add(node.left, e);
-//        else //e.compareTo(node.e) > 0
-//            // 大于，往右子树添加。
-//            add(node.right, e);
-//    }
 }
