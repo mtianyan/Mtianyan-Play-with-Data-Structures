@@ -24,10 +24,13 @@ public class Array<E> {
     /**
      * 静态数组入参构造函数
      *
-     * @param data 传入静态数组
+     * @param arr 传入静态数组
      */
-    public Array(E[] data) {
-        this.data = data;
+    public Array(E[] arr) {
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++)
+            data[i] = arr[i];
+        size = arr.length;
     }
 
     /**

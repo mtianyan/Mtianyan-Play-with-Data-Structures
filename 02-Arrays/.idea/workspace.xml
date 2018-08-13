@@ -2,50 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b794e9-d67c-4964-bcf7-21fbb2efe709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-Stack-Queue/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-Linked-List/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/queue/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/05-Recursion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson1/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05-Recursion/src/cn/mtianyan/lesson2/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-Heap-and-Priority-Queue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-Heap-and-Priority-Queue/src/cn/mtianyan/heap/CompareHeapifyHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-Heap-and-Priority-Queue/src/cn/mtianyan/heap/MaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/ArrayTestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTestDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/ArrayStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/ArrayStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/MainCompareArrayLoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/ArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/linked/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/queue/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/stack/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/LoopQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/linked/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/MainThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/MainThreeCompre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/mainTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/MainTwoCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Stack-Queue/src/cn/mtianyan/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-Linked-List/src/cn/mtianyan/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08-Heap-and-Priority-Queue/src/cn/mtianyan/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-Set-and-Map/a-tale-of-two-cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Set-and-Map/a-tale-of-two-cities.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-Set-and-Map/pride-and-prejudice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Set-and-Map/pride-and-prejudice.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,20 +24,20 @@
     <session id="150619420">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -91,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -107,11 +73,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/cn/mtianyan/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/Array.java" />
-        <option value="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTestDynamic.java" />
         <option value="$PROJECT_DIR$/src/cn/mtianyan/array/Student.java" />
+        <option value="$PROJECT_DIR$/src/cn/mtianyan/array/Array.java" />
       </list>
     </option>
   </component>
@@ -164,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533884453614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534186278356" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -184,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.mtianyan.array.ArrayTest" />
       <module name="02-Arrays" />
@@ -242,10 +208,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ArrayTest" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.ArrayTestDynamic" />
+        <item itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,17 +229,19 @@
       <workItem from="1533883797908" duration="687000" />
       <workItem from="1533884541101" duration="790000" />
       <workItem from="1533886796917" duration="159000" />
+      <workItem from="1534186252076" duration="29000" />
+      <workItem from="1534186368403" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1727000" />
+    <option name="totallyTimeSpent" value="1763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1332" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17124394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,19 +280,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/array/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="532">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="method#Array#0;class#Array#0" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
             <element signature="method#addLast#0;class#Array#0" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
             <element signature="method#add#0;class#Array#0" />
             <element signature="method#resize#0;class#Array#0" />
             <element signature="method#toString#0;class#Array#0" />
@@ -342,15 +302,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTestDynamic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/array/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="e#295#296#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
@@ -358,17 +325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/array/ArrayTestDynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/mtianyan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
